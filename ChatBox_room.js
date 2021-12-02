@@ -16,7 +16,7 @@ function addroom() {
      purpose: "Adding Room Name"
       });
       localStorage.setItem("Roomname",room_name);
-      window.location = "kwitter_page.html";
+      window.location = "ChatBox_page.html";
 }
 function getData(){
 firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML = "";
