@@ -1,12 +1,12 @@
 var firebaseConfig = {
-     apiKey: "AIzaSyDCqbRoMK8wX_AR3iU6xCYdca4kn1ect7U",
-     authDomain: "chat-box-a8ce8.firebaseapp.com",
-     databaseURL: "https://chat-box-a8ce8-default-rtdb.firebaseio.com/",
-     projectId: "chat-box-a8ce8",
-     storageBucket: "chat-box-a8ce8.appspot.com",
-     messagingSenderId: "130656967171",
-     appId: "1:130656967171:web:fceca95623ba4873c30c36"
-   };
+  apiKey: "AIzaSyDtnDgEywiL2rL-67QZ2VW2Qoj76-eYYjI",
+  authDomain: "deletetest-132c7.firebaseapp.com",
+  databaseURL: "https://deletetest-132c7-default-rtdb.firebaseio.com",
+  projectId: "deletetest-132c7",
+  storageBucket: "deletetest-132c7.appspot.com",
+  messagingSenderId: "251442731867",
+  appId: "1:251442731867:web:eb8dd0bdc2ec1bb2dd187e"
+};
 firebase.initializeApp(firebaseConfig);
 user_name = localStorage.getItem("Username");
 document.getElementById("welcome_user_name").innerHTML = "Welcome "+user_name+"!";
